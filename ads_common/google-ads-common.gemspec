@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.summary = 'Common code for Google Ads APIs'
   s.description = 'Essential utilities shared by all Ads Ruby client libraries'
   s.homepage = 'https://github.com/googleads/google-api-ads-ruby'
+  s.metadata = {'github_repo' => 'ssh://github.com/burtcorp/google-api-ads-ruby.git'}
   s.authors = ['Sergio Gomes', 'Danial Klimkin', 'Michael Cloonan']
   s.email = ['adwordsapiadvisor+michael@google.com']
   s.license = 'Apache-2.0'
