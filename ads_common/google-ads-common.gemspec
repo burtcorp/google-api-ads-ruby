@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 2.7'
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project = 'google-ads-common'
   s.require_path = 'lib'
   s.files = Dir.glob('lib/**/*') + %w(README.md ChangeLog)
   s.add_runtime_dependency('faraday', '>= 0.9')
